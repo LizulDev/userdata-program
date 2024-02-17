@@ -19,7 +19,6 @@ class UserData{
         $this->name = NULL;
         $this->age = NULL;
         $this->montlyWage = NULL;
-        echo "Data erased successfully!";
     }
 }
 
@@ -54,6 +53,7 @@ while ($option != 3){
             foreach ($newUser as $user) {
                 $user->clearObjects();
             }            
+            echo "Data erased successfully!";
             break;
     }
 }
